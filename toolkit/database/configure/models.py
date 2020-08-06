@@ -1,7 +1,7 @@
 # coding=gbk
 
 from sqlalchemy import create_engine
-from tookit.database.configure.config import to_format
+from toolkit.database.configure.config import to_format
 
 conn_qt = create_engine(to_format(db_name='quant'), echo=False)
 conn_qt_read = create_engine(to_format(db_name='quant', username='read'), echo=False)

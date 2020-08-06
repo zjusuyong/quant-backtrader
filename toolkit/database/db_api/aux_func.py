@@ -1,9 +1,9 @@
 # coding=gbk
 # coding=utf-8
 
-from tookit.database.db_api.alchemy_api import AlchemyAPI
-from tookit.analysis_package import ap
-from tookit.database.configure import models
+from toolkit.database.db_api.alchemy_api import AlchemyAPI
+from toolkit.analysis_package import ap
+from toolkit.database.configure import models
 import pandas as pd
 
 

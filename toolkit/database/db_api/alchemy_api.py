@@ -2,8 +2,8 @@
 
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy import func
-from tookit.database.configure import models
-from tookit.analysis_package import ap
+from toolkit.database.configure import models
+from toolkit.analysis_package import ap
 import pandas as pd
 
 

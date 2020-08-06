@@ -4,8 +4,8 @@ from scipy import stats
 
 from configure.config import *
 import tushare as ts
-from tookit.database.configure.models import *
-from tookit import quant_package as qp
+from toolkit.database.configure.models import *
+from toolkit import quant_package as qp
 import datetime as dt
 import pandas as pd
 import matplotlib.pyplot as plt

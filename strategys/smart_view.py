@@ -2,8 +2,8 @@ import argparse
 import datetime
 import glob
 import os.path
-from tookit.database.configure.models import *
-from tookit import quant_package as qp
+from toolkit.database.configure.models import *
+from toolkit import quant_package as qp
 
 import backtrader as bt
 
